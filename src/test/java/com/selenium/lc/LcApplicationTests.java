@@ -18,7 +18,7 @@ public class LcApplicationTests {
     @BeforeClass
     public static void openBrowser() {
         // chromedrive  下载地址：http://chromedriver.storage.googleapis.com/index.html
-        System.setProperty("webdriver.chrome.driver","chromedriver");
+        System.setProperty("webdriver.chrome.driver","chromedrivers/74.0.3729.6/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts()
                 .implicitlyWait(10, TimeUnit.SECONDS);
